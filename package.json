@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build",
-    "test": "gulp test"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +12,8 @@
     "express": "^4.14.1",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
